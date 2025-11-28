@@ -10,11 +10,11 @@ const faqDatabase = [
     },
     {
         keywords: ['contact', 'email', 'phone', 'reach', 'call'],
-        answer: 'You can reach us at support@example.com or call us at +1-555-0123. We typically respond within 24 hours.'
+        answer: 'You can reach us at support@example.com or call us at +91-5555-01-0123. We typically respond within 24 hours.'
     },
     {
         keywords: ['location', 'address', 'where', 'office'],
-        answer: 'Our main office is located at 123 Tech Street, San Francisco, CA 94102. We also have remote support available worldwide.'
+        answer: 'Our main office is located at 123 Tech Street somewhere on earth, CA 94102. We also have remote support available worldwide.'
     },
     {
         keywords: ['return', 'refund', 'money back', 'cancel'],
@@ -153,4 +153,5 @@ userInput.addEventListener('keypress', (e) => {
 });
 
 // Focus input on load
+
 userInput.focus();
