@@ -14,7 +14,7 @@ const faqDatabase = [
     },
     {
         keywords: ['location', 'address', 'where', 'office'],
-        answer: 'Our main office is located at 123 Tech Street somewhere on earth, CA 94102. We also have remote support available worldwide.'
+        answer: 'Our main office is located at 123 Tech Street somewhere on earth. We also have remote support available worldwide.'
     },
     {
         keywords: ['return', 'refund', 'money back', 'cancel'],
@@ -155,3 +155,4 @@ userInput.addEventListener('keypress', (e) => {
 // Focus input on load
 
 userInput.focus();
+
